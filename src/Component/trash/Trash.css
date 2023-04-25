@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#trash-main{
+    border: 1px solid lightgray;
+width: 75vw;
+height: 10rem;
+transform: translate(30%);
+padding: 1rem;
+    position: relative;
+    background-color:  #f2f6fc;
+    
+
+}
+#trash-content{
+    font-size: 13px;
+}
+#trash-text{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#trash-delete{
+    position: absolute;
+    bottom: 0;
+    right: 3rem;
+    color: red;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+#no-trash{
+    text-align: center;
+   
+   
+}
+button{
+    width: 8rem;
+    height:2rem;
+  color: white;
+    background-color:black;
+    border: 1px solid black;
+}

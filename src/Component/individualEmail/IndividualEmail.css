@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#individual{
+  width: 75vw;
+  margin: 0 auto;
+  transform: translate(15%);
+  text-align: center;
+
+
+}
+#individual-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
